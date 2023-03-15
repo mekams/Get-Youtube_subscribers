@@ -8,10 +8,10 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 
 // Connect to Local DATABASE (MongoDB compass Database)
-const DATABASE_URL = "mongodb://127.0.0.1:27017/subscribers"
+// const DATABASE_URL = "mongodb://127.0.0.1:27017/subscribers"
 
 //Connect to Cloud DATABASE (MongoDB Atlas Database) 
-// const DATABASE_URL = "mongodb+srv://root:kamran51@cluster0.j26qx1a.mongodb.net/subscribers"
+const DATABASE_URL = "mongodb+srv://root:kamran51@cluster0.j26qx1a.mongodb.net/subscribers"
 
 mongoose.connect(DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection
