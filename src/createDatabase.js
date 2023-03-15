@@ -1,12 +1,14 @@
 const mongoose = require('mongoose')
 const subscriberModel = require('./models/subscribers')
 const data = require('./data')
+const dotenv = require('dotenv').config()
+
 
 // Connect to Local DATABASE (MongoDB compass Database)
 // const DATABASE_URL = "mongodb://127.0.0.1:27017/subscribers"
 
 //Connect to Cloud DATABASE (MongoDB Atlas Database) 
-const DATABASE_URL = process.env.database_URL
+const DATABASE_URL = process.env.DATA_URL
 
 mongoose.connect(DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection
