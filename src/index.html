@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap stylesheet included  below -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Youtube Subscribers</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <h1><img src="https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png"
+                    style="height: 12vh; width:auto" /><u>Welcome to Youtube Subscribers fetch portal by Kamran</u></h1>
+            <h4 style="margin-top: 1em">The API provided by this application contains the url as following below :</h4>
+
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-primary"> Base URL :<span
+                        style="background-color: darkgray;color:navy">http://localhost:3000</span></li>
+
+                <li class="list-group-item list-group-item-success">GET <span
+                        style="background-color: darkgray;color:navy">/subscribers</span> : returns an array of
+                    subscribers
+                    present in database.</li>
+
+                <li class="list-group-item list-group-item-success">GET <span
+                        style="background-color: darkgray;color:navy">/subscribers/names</span> : returns an array of
+                    subscribers with only two fields (name &amp; subscribedChannel).</li>
+
+                <li class="list-group-item list-group-item-success">GET <span
+                        style="background-color: darkgray;color:navy">/subscribers/:id</span> : returns the details of a
+                    subscriber with given ID.</li>
+
+                <li class="list-group-item list-group-item-warning">If ":id" in <span
+                        style="background-color: darkgray;color:navy">/subscribers/:id</span> &nbsp;is not found in
+                    database
+                    then it returns with an error message with a status code of 400. </li>
+
+                <br><br>
+            </ul>
+            <h6 style="background-color: yellow; text-align: center;"><span  style="font-size: 1.5rem; color:tomato;">**Kindly note**</span>
+                <br />
+                Base URL only works if running this application with the local directory. Once deployed over cloud (i.e
+                Vercel), Base URL will be changed &amp; rest relative url of api remains same.</h6>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h4 style="margin-top: 1em">Add and delete subscribers using API as below:</h4>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-danger">GET <span
+                        style="background-color: darkgray;color:navy">/subscribers/add</span> : returns an array of
+                    subscribers
+                    present in database.</li>
+                <li class="list-group-item list-group-item-danger">GET <span
+                        style="background-color: darkgray;color:navy">/subscribers/delete/:id</span> : returns an array
+                    of subscribers
+                    present in database.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- bootstrap script included  below -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
