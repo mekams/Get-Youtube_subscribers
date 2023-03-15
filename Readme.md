@@ -2,6 +2,8 @@
 
 ## Folder Structure
 
+
+
 ## Introduction
 
 * A backend project which includes specific routes in the URL .
@@ -79,7 +81,7 @@ __Postman__ (Deleting Subscriber with added subscriber id) <br/>
 
 ## FAQ
 
-#### How to add new subscribers?
+#### How to add new subscribers & delete ?
 
 Use Postman or Insomnia to add new subscribers, Delete subscribers from the database.<br/>
 
