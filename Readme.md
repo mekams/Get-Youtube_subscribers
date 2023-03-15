@@ -31,8 +31,9 @@ Install npm dependencies of express and mongoose using " npm install " command.
 - *Step 2*
 
 Using MongoDB local (Compass) as well as MongoDB Cloud (Atlas), depends on you which you want to use 
-Just uncomment and comment the codes vice versa in createDatabase.js and index.js
-<img width="512" alt="image" src="https://user-images.githubusercontent.com/100461901/225370197-7a1e27f2-562c-4c8b-989b-e379058032b0.png">
+Just uncomment and comment the codes vice versa in createDatabase.js and index.js <br/>
+
+<img width="512" alt="image" src="https://user-images.githubusercontent.com/100461901/225370197-7a1e27f2-562c-4c8b-989b-e379058032b0.png"><br/>
 
 Start the backend server using nodemon or node src/index.js command.
 
