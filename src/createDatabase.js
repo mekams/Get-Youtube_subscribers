@@ -6,7 +6,7 @@ const data = require('./data')
 // const DATABASE_URL = "mongodb://127.0.0.1:27017/subscribers"
 
 //Connect to Cloud DATABASE (MongoDB Atlas Database) 
-const DATABASE_URL = "mongodb+srv://root:kamran51@cluster0.j26qx1a.mongodb.net/subscribers"
+const DATABASE_URL = "mongodb+srv://root:kamran51@cluster0.j26qx1a.mongodb.net/?retryWrites=true&w=majority/subscribers"
 
 mongoose.connect(DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection
