@@ -2,6 +2,20 @@
 
 ## Folder Structure
 
+        Get-Youtube_subscribers  
+├─ src                   
+│  ├─ models             
+│  │  └─ subscribers.js  
+│  ├─ app.js             
+│  ├─ createDatabase.js  
+│  ├─ data.js            
+│  ├─ index.html         
+│  └─ youtube.png        
+├─ index.js              
+├─ package-lock.json     
+├─ package.json          
+├─ Readme.md             
+└─ vercel.json     
 
 
 ## Introduction
@@ -92,4 +106,7 @@ Use Postman or Insomnia to add new subscribers, Delete subscribers from the data
  https://youtube-sub-get.vercel.app/
  <hr/>
 
+
+
+      
 
