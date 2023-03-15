@@ -31,13 +31,15 @@ Install npm dependencies of express and mongoose using " npm install " command.
 - *Step 2*
 
 Using MongoDB local (Compass) as well as MongoDB Cloud (Atlas), depends on you which you want to use 
-Just uncomment and comment the codes vice verca in createDatabase.js and index.js
+Just uncomment and comment the codes vice versa in createDatabase.js and index.js
+<img width="730" alt="image" src="https://user-images.githubusercontent.com/100461901/225184872-ed409a57-c89d-4eaa-97a7-455ab46abfb5.png">
 
 Start the backend server using nodemon or node src/index.js command.
 
 - *Step 3*
 
 - GET http://localhost:3000/ → The client will see an interface as below:
+<img width="1046" alt="image" src="https://user-images.githubusercontent.com/100461901/225185118-0f5cd0a3-6b81-4b4d-bf55-375a116ac838.png">
 
 - GET http://localhost:3000/subscribers → When the user hit this, endpoint /subscribers, the client will get an array of all subscribers in JSON format from the database where the data is stored in local or MongoDB cloud database.
 
@@ -55,17 +57,16 @@ app.use() is used to handle all the unwanted requests. It will return 404 Not Fo
 
 - DELETE http://localhost:3000/subscribers/delete/:id → When user hits this route using Postman or Insomnia with particular subscriber ID a subscriber will be deleted from the database.
 
+## FAQ
+
+#### How to add new subscribers?
+
+Use Postman or Insomnia to add new subscribers, Delete subscribers from the database.
+
 ## Deployment
 
 The app has been deployed on 
 https://get-youtube-subscriber.vercel.app/
 
 
-## FAQ
 
-#### How to add new subscribers?
-
-Use Postman to add new subscribers, Delete subscribers from the database.
-
-About
-A capstone project where I learnt about back end development with a deep dive in to node , express and mongo db with mongoose
