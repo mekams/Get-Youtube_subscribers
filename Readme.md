@@ -84,7 +84,9 @@ __Postman__ (Deleting Subscriber with added subscriber id) <br/>
 Use Postman or Insomnia to add new subscribers, Delete subscribers from the database.<br/>
 
 ## Deployment
- __live link__ <br/>
+
+ *__live link__*<br/>
  https://youtube-sub-get.vercel.app/
+ <hr/>
 
 
