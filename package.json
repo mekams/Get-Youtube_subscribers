@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
-    "start": "node ./src/index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
