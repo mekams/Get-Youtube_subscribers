@@ -1,7 +1,10 @@
 const express = require('express')
 const app = require('./src/app.js')
 const mongoose = require('mongoose')
-const dotenv = require('dotenv').config()
+
+//environment variables module
+const dotenv = require('dotenv')
+dotenv.config()
 const port = process.env.port || 3000
 
 // Parse JSON bodies (as sent by API clients)
@@ -13,6 +16,8 @@ app.use(express.urlencoded({ extended: false }));
 
 //Connect to Cloud DATABASE (MongoDB Atlas Database) 
 const DATABASE_URL = process.env.MONGODB_URI
+
+//connecting nodejs /expressJs to database with the help of mongoose 
 
 mongoose.connect(DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection
