@@ -9,7 +9,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 
 // Connect to Local DATABASE (MongoDB compass Database)
-// const DATABASE_URL = "mongodb://127.0.0.1:27017/subscribers"
+// const DATABASE_URL = "mongodb://127.0.0.1:27017/test"
 
 //Connect to Cloud DATABASE (MongoDB Atlas Database) 
 const DATABASE_URL = process.env.MONGODB_URI
