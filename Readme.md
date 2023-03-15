@@ -23,6 +23,7 @@
 * Path module to join index.html
 * Postman || Insomnia
 * nodemon
+* dotenv
 
 ## Steps :
 
