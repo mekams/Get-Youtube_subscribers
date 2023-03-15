@@ -1,5 +1,5 @@
 const express = require('express')
-const app = require('./app.js')
+const app = require('./src/app.js')
 const mongoose = require('mongoose')
 const dotenv = require('dotenv').config()
 const port = process.env.port || 3000
