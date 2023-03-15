@@ -8,7 +8,7 @@ const dotenv = require('dotenv').config()
 // const DATABASE_URL = "mongodb://127.0.0.1:27017/subscribers"
 
 //Connect to Cloud DATABASE (MongoDB Atlas Database) 
-const DATABASE_URL = process.env.DATA_URL
+const DATABASE_URL = process.env.MONGODB_URI
 
 mongoose.connect(DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection
