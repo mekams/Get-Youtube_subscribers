@@ -102,10 +102,10 @@ Use Postman or Insomnia to add new subscribers, Delete subscribers from the data
 
 ## Deployment
 
- *__live link__*<br/>
+ *__live link__* <br/>
  https://youtube-sub-get.vercel.app/
  <hr/>
- *__Video link__*<br/>
+ *__Video link__* <br/>
 https://youtu.be/dJPzO5hG4rw
 <hr/>
 
