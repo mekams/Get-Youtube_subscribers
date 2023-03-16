@@ -57,7 +57,7 @@ Start the backend server using nodemon or node index.js command.
 - *Step 3*
 
 - GET http://localhost:3000/ → The client will see an interface as below:<br/>
-<img width="1118" alt="image" src="https://user-images.githubusercontent.com/100461901/225379699-3053f604-c343-461b-a9f1-ea0007fd3dad.png"><br/>
+<img width="1120" alt="image" src="https://user-images.githubusercontent.com/100461901/225604069-a409ea9f-513a-4486-a434-e2e3879ac2e7.png"><br/>
 
 - GET http://localhost:3000/subscribers → When the user hit this, endpoint /subscribers, the client will get an array of all subscribers in JSON format from the database where the data is stored in local or MongoDB cloud database. <br/>
 
